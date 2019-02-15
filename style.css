@@ -1,0 +1,94 @@
+h1, h2, p {
+  font-family: monospace;
+}
+
+.box {
+  margin: 1em;
+  max-width: 75%;
+}
+
+.catz {
+  font-size: 6em;
+  line-height: 0em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.bold {
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* .text {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: auto;
+} */
+.imageContainer {
+  margin-top: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+#getCat {
+  margin-top: 1em;
+  padding: 10px 24px;
+  font-family: monospace;
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+#getCat:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  font-family: monospace;
+}
+
+@media (max-width: 700px) {
+  .catz {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  #getCat {
+    margin-top: 1em;
+    padding: 5px 12px;
+    font-family: monospace;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+
+  .box {
+    margin: .5em;
+    max-width: 90%;
+  }
+}
